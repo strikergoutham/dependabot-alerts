@@ -1,6 +1,6 @@
 # dependabot-alerts
 This script fetches new dependabot SCA alerts(high, critical , medium) for specified repositories and pushes the new open alerts to specified slack channel and writes individual and aggregate output to specified S3 bucket.
-Credits to base script which was already available at @ https://github.com/nasifimtiazohi/vulnerable-dependency-detection-comparison ( if the original author is reading this , THANK YOU! for the base script. :) )
+This is a modded script with few added functionalities and suite our requirement . Credits to the base script author which is available at @ https://github.com/nasifimtiazohi/vulnerable-dependency-detection-comparison ( if the original author is reading this , THANK YOU! for the base script. :) )
 
 #How to :
 

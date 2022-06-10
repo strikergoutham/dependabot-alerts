@@ -15,11 +15,11 @@ This is a modded script with few added functionalities  to suit our requirement 
 5. Attach the type of trigger for lambda function set to cron to run daily .(Eventbridge)
 
 6. download the following requirement libraries for python 3 and upload the dependencies to the lambda root:
-certifi
-charset_normalizer
-idna
-requests
-urllib3
+certifi,
+charset_normalizer,
+idna,
+requests,
+urllib3.
 
 7. Upload all the files in this repo to the lambda root.
 8. Edit the file "vuln_alerts.py" for the fields with relavent values : 

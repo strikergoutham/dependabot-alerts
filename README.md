@@ -1,5 +1,5 @@
 # dependabot-alerts
-This script fetches new dependabot SCA alerts(high &amp; critical) and pushes the new open alerts to specified slack channel.
+This script fetches new dependabot SCA alerts(high, critical , medium) and pushes the new open alerts to specified slack channel.
 Credits to base script which was already available at @ 
 
 #How to :

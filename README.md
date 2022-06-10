@@ -6,7 +6,6 @@ This is a modded script with few added functionalities and to suit our requireme
 
 1. Runs on python 3 runtime .
 ##this script is written so that it can be deployed as a lambda function.
-host the files.
 
 2. Create a lambda function with access to read/write to an output S3 bucket.
 3. Create an AWS secret inside secrets manager service with the follwing name value pairs :

@@ -1,5 +1,5 @@
 # dependabot-alerts
-This script fetches new dependabot SCA alerts(high, critical , medium) and pushes the new open alerts to specified slack channel and writes individual and aggregate output to specified S3 bucket.
+This script fetches new dependabot SCA alerts(high, critical , medium) for specified repositories and pushes the new open alerts to specified slack channel and writes individual and aggregate output to specified S3 bucket.
 Credits to base script which was already available at @ 
 
 #How to :

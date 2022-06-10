@@ -6,7 +6,6 @@ import boto3
 import glob
 
 #this script is a bit raw and it serves our purpose. you can modify this script at will.
-#this script mods the already available functionality  at the following script : ,thank you for the script with graphql query.
 #update the values here in the script. just lazy to move it to config :D. 
 secret_name = "#your_aws_secret_name"
 region_name = "#your_aws_region_here"

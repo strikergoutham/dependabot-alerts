@@ -30,4 +30,4 @@ urllib3
         repo_owner_name = "#your_github_orgspace_name"
 9. Edit file "scan_repos.txt" with repository names(each per line) with dependabot alerts enabled and to monitor for delta alerts.
         
-9. Thats it, deploy the lambda function , script should write output to S3 bucket as per the execution and push new dependabot alerts to the desired slack channel daily.
+9. Thats it, deploy the lambda function , script should write results to S3 bucket as per the execution and push new dependabot alerts to the desired slack channel daily.

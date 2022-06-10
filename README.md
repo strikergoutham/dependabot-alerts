@@ -9,7 +9,7 @@ Credits to base script which was already available at @
 host the files.
 
 2. Create a lambda function with access to read/write to an output S3 bucket.
-3. Create a AWS secret inside secrets manager service with the follwing name value pairs :
+3. Create an AWS secret inside secrets manager service with the follwing name value pairs :
             slack_webhook_dependabot : webhook to your slack channel. 
             gh_token_dependabot : github token to read the private repositories.
 4. Attach role to Lambda function to read the above created AWS secret.
